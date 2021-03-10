@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.covid.mapper.ChinadataMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.covid.entity.Chinadata">
+        <result column="Province" property="Province" />
+        <result column="Country" property="Country" />
+        <result column="Date" property="Date" />
+        <result column="Confirmed" property="Confirmed" />
+        <result column="Deaths" property="Deaths" />
+        <result column="Recovered" property="Recovered" />
+        <result column="Latitude" property="Latitude" />
+        <result column="Longitude" property="Longitude" />
+    </resultMap>
+
+</mapper>
